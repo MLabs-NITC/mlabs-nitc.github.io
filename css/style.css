@@ -26,6 +26,10 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+iframe{
+  margin: 2rem;
+}
+
 ::-moz-selection {
   background: #000000;
   color: #ffffff;
@@ -54,6 +58,11 @@ a {
 a:hover, a:focus, a:active {
   color: #174b8f;
   text-decoration: none;
+}
+
+.pic{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .probootstrap-navbar {
@@ -1211,7 +1220,7 @@ a:hover, a:focus, a:active {
   background-image: url("../img/parallax1.jpg");
 
     /* Set a specific height */
-    height: 400px; 
+    height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -1223,7 +1232,7 @@ a:hover, a:focus, a:active {
   background-image: url("../img/parallax2.png");
 
     /* Set a specific height */
-    height: 400px; 
+    height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -1235,7 +1244,7 @@ a:hover, a:focus, a:active {
   background-image: url("../img/parallax3.jpg");
 
     /* Set a specific height */
-    height: 400px; 
+    height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -1247,7 +1256,7 @@ a:hover, a:focus, a:active {
   background-image: url("../img/parallax4.jpg");
 
     /* Set a specific height */
-    height: 400px; 
+    height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
